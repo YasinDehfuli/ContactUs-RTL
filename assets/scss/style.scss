@@ -1,3 +1,7 @@
+*{
+  font-family: Vazirmatn, "Vazirmatn FD", serif;
+}
+
 // Contact Form Styles
 #contact {
   margin: 15px;
@@ -42,3 +46,27 @@
 }
 
 // Address Title Section style Finish
+
+// button styles
+.btn-contact {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: #cd691d;
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 5px 20px 8px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  transition: 666ms;
+
+  &:hover {
+    color: #fffffe;
+    background: #e37c2c ;
+    transform: scaleX(112%);
+  }
+}
+
+//  button styles finish
