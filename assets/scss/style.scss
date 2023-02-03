@@ -1,8 +1,10 @@
+// Contact Form Styles
 #contact {
   margin: 15px;
 }
 
 .contact-img {
+  transition: 666ms;
   max-width: 100%;
   display: block;
   margin: auto;
@@ -11,3 +13,32 @@
     transform: scale(105%);
   }
 }
+// Contact Form Style Finish
+
+// Address Title Section style
+.address-box {
+  text-align: center;
+  position: relative;
+  margin-bottom: 35px;
+
+  &:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: rgba(0, 0, 0, .1);
+    position: absolute;
+    top: 17px;
+    right: 0;
+  }
+
+  .title-bar {
+    font-size: 120%;
+    border: 2px solid rgba(0, 0, 0, .1);
+    padding: .3em 1em .5rem;
+    background: #fff;
+    position: relative;
+    font-weight: 400;
+  }
+}
+
+// Address Title Section style Finish
