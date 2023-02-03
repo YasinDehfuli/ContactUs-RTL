@@ -1,0 +1,13 @@
+#contact {
+  margin: 15px;
+}
+
+.contact-img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+
+  &:hover {
+    transform: scale(105%);
+  }
+}
